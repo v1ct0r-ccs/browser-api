@@ -1,6 +1,6 @@
 {
     "name": "app",
-    "homepage": "https://v1ct0r-ccs.github.io/style-guide/app/",
+    "homepage": "https://v1ct0r-ccs.github.io/app/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
