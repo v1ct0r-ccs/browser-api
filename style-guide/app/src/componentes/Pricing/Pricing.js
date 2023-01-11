@@ -260,4 +260,4 @@ function PricingContent() {
 
 export default function Pricing() {
   return <PricingContent />;
-}
+} 

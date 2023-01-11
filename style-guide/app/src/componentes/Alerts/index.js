@@ -11,4 +11,4 @@ export default function BasicAlerts(props) {
       <Alert severity={props.type}>{props.children}</Alert>
     </Stack>
   );
-}
+} 
