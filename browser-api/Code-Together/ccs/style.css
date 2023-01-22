@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    width: 1900px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header>img {
+    width: 180.5px;
+    height: 35.5px;
+    position: relative;
+    left: 140px;
+    padding-right: 606px;
+}
+
+header>a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    width: 40px;
+    height: 17px;
+    
+}
+
+.descrição {
+    display: flex;
+}
+
+.descrição>img {
+    width: 1074.08px;
+    height: 842.68px;
+    padding-left: 17px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 64px;
+    width: 504px;
+    padding-bottom: 42px;
+    position: relative;
+    top: 97px;
+    color: #1A1A1A;
+}
+
+h2+p {
+    font-weight: 400;
+    font-size: 36px;
+    width: 664px;
+    position: relative;
+    top: 97px;
+    color: #595959;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    color: #0074FF;
+    width: 307px;
+    height: 72px;
+    position: relative;
+    top: 130px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: #0074FF;
+    color: white;
+}
+
+.localização {
+    background-image: url(../images/Ellipse-cheio.jpg);
+    background-repeat: no-repeat;
+    background-position: 20px 0 0 0;
+    background-size: 500px
+    
+}
+
+.localização>h4 {
+    font-weight: 700;
+    font-size: 48px;
+    width: 293px;
+    position: relative;
+    left: 814px;
+    padding-bottom: 42px;
+    color: #1A1A1A;
+}
+
+.localização>h4+p {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.88px;
+    width: 1231px;
+    height: 88px;
+    position: relative;
+    left: 345px;
+    padding-bottom: 78px;
+    text-align: center;
+    vertical-align: top;
+    color: #595959;
+}
+
+.mapouter {
+    position: relative;
+    left: 470px;
+    padding-bottom: 87px;
+}
+
+.vector3 {
+    position: absolute;
+    width: 316.5px;
+    height: 0px;
+    left: 802px;
+    border: 3px solid #000000;
+}
+
+.serviços {
+    padding-top: 230px;
+    background-image: url(../images/Ellipse-borda.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.serviços>h4 {
+    width: 211px;
+    height: 59px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+    text-align: center;
+    color: #1A1A1A;
+    position: absolute;
+    left: 855px;
+    top: 1975px;
+}
+
+.serviços>h4+p {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.88px;
+    width: 1231px;
+    height: 88px;
+    position: relative;
+    left: 345px;
+    top: 0px;
+    padding-bottom: 78px;
+    text-align: center;
+    vertical-align: top;
+    color: #595959;
+}
+
+.cards {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+h3 {
+    position: relative;
+    width: 154px;
+    height: 176px;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 176px;
+    color: rgba(26, 26, 26, 0.1);
+}
+
+.card-01 {
+    width: 309px;
+    height: 448px;
+    background-color: #0074FF;
+    color: white;
+    margin-right: 13px;
+}
+
+.card-01>h3+h4 {
+    width: 197px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    color: white;
+    position: relative;
+    left: 39px;
+    top: -72px;
+}
+
+.card-01 p {
+    width: 280px;
+    height: 176px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.94px;
+    position: relative;
+    left: 22px;
+}
+
+.card-02 {
+    width: 309px;
+    height: 448px;
+    background-color: #0074FF;
+    color: white;
+    margin-right: 13px;
+}
+
+.card-02>h3+h4 {
+    width: 197px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    color: white;
+    position: relative;
+    left: 39px;
+    top: -72px;
+}
+
+.card-02 p {
+    width: 280px;
+    height: 176px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.94px;
+    position: relative;
+    left: 22px;
+}
+
+.card-03 {
+    width: 309px;
+    height: 448px;
+    background-color: #0074FF;
+    color: white;
+    margin-right: 13px;
+}
+
+.card-03>h3+h4 {
+    width: 197px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    color: white;
+    position: relative;
+    left: 39px;
+    top: -72px;
+}
+
+.card-03 p {
+    width: 280px;
+    height: 176px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.94px;
+    position: relative;
+    left: 22px;
+}
+
+.card-04 {
+    width: 309px;
+    height: 448px;
+    background-color: #0074FF;
+    color: white;
+    padding-right: 13px;
+}
+
+.card-04>h3+h4 {
+    width: 197px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    color: white;
+    position: relative;
+    left: 39px;
+    top: -72px;
+}
+
+.card-04 p {
+    width: 280px;
+    height: 176px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.94px;
+    position: relative;
+    left: 22px;
+}
+
+.segmentos {
+    padding-top: 221px;
+}
+
+.segmentos>h4 {
+    width: 286px;
+    height: 59px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+    text-align: center;
+    color: #1A1A1A;
+    position: relative;
+    left: 817px;
+}
+
+.segmentos>h4+p {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.88px;
+    width: 1068px;
+    height: 88px;
+    position: relative;
+    left: 429px;
+    top: 42px;
+    padding-bottom: 78px;
+    text-align: center;
+    vertical-align: top;
+    color: #595959;    
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 163px;
+    margin-right: 170px;
+    position: relative;
+    top: -37.5px;
+}
+
+.icons img {
+    padding: 37.5px 15px 30px 0px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;    
+}
+
+.icon-cards {
+    width: 395px;
+    height: 262px;
+    padding-top: 80px;
+}
+
+.icon-cards>h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    position: relative;
+    left: 74px;
+    top: -27px;
+}
+
+.icon-cards>h5+p {
+    width: 325px;
+    height: 138px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.94px;
+    position: relative;
+    left: 74px;
+    top: -15px;
+}
+
+footer {
+    height: 150px;
+    margin-top: 230px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>h6 {
+    margin-left: 206px;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;  
+}
+
+footer>h6+p{
+    margin-right: 162px; 
+}
